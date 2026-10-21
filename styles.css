@@ -1,0 +1,130 @@
+body{
+    font-family:'Calibri';
+    background-color: rgb(218, 211, 211) ;
+    padding: 20px;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-items: center;
+}
+
+li{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-inicio{
+    background-color: #79a987;
+}
+
+.btn-sobre{
+    background-color: #b8dcf7;
+}
+
+.btn-colores{
+    background-color: #ffe69a;
+}
+
+.btn-contacto{
+    background-color: #f5b9c5;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#inicio{
+    background-color: #d2f2d8;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#inicio button{
+    background: color #4d8058;;
+    color: rgb(252, 248, 248);
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#sobre-mi{
+    background-color: rgb(164, 186, 226);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Colores{
+     background-color:rgb(223, 213, 162) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Caja1{
+     background-color:rgb(212, 149, 138) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Caja2{
+     background-color:rgb(147, 187, 214) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Caja3{
+     background-color:rgb(182, 219, 181) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Contacto{
+    background-color: rgb(132, 101, 146);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-contacto{
+    background-color: #7050b5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#footer{
+    background-color: #59636b;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}
